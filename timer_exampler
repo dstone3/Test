@@ -1,0 +1,8 @@
+#include"elapsed_time.h"
+
+int main()
+{ 
+  start_timer();
+  double cycles = elapsed_time();
+  cout << cycles;
+}
